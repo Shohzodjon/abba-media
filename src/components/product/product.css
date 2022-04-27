@@ -1,0 +1,165 @@
+.product_section {
+  width: 100%;
+
+  position: relative;
+}
+.product_section .img_archa {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  z-index: -1;
+}
+.product_section .img_archa img {
+  width: 75%;
+  height: 100%;
+}
+.product_section h2 {
+  margin-top: 3rem;
+}
+.product_section p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 50%;
+  line-height: 26px;
+}
+.product_section .product_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.product_grid .item {
+  column-gap: 1.5rem;
+  border: 1px solid #d9dcec;
+  border-radius: var(--border-radius);
+  padding: 0.3rem;
+  transition: all 0.2s linear;
+}
+.product_grid .item:hover {
+  border-color: var(--second-green);
+}
+.product_grid .item .grid_img {
+  width: 60%;
+  margin: 0.4rem;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.product_grid .grid_img img {
+  width: 100%;
+  transition: transform 0.3s linear;
+}
+.product_grid .item:hover .grid_img img {
+  transform: scale(1.07);
+}
+.grid_info h4 {
+  font-size: 2rem;
+  font-family: GliroyBold;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.grid_info p {
+  width: auto;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 0.7rem;
+}
+.about_section {
+  width: 100%;
+
+  padding-top: 5rem;
+  padding: 8rem 0;
+  position: relative;
+}
+.about_section .d_flex {
+  padding-left: 0.5rem;
+  margin-top: 5rem;
+}
+.about_right {
+  width: 50%;
+  position: relative;
+
+  height: 300px;
+}
+.about_right .issiqxona1 {
+  position: absolute;
+  top: 15px;
+  width: 290px;
+  left: -50%;
+  z-index: 2;
+}
+.about_right .issiqxona1 img {
+  width: 100%;
+}
+.about_right .issiqxona2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 290px;
+}
+.about_right .issiqxona2 img {
+  width: 100%;
+}
+.about_right .traktor {
+  position: absolute;
+  bottom: -45%;
+  left: -45%;
+  z-index: 6;
+}
+.about_section .about_left h2 {
+  width: 50%;
+}
+.about_section .about_left p {
+  width: 70%;
+  font-size: 1.4rem;
+}
+.btn_group {
+  margin-top: 1.5rem;
+}
+.btn_group .about_btn {
+  border: none;
+  width: 184px;
+  height: 52px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-right: 1.2rem;
+  background: none;
+  border-radius: 3rem;
+  color: var(--main-color);
+  transition: 0.3s linear all;
+}
+.btn_group .about_btn:hover {
+  border: 1px solid var(--main-color);
+}
+.about_section .bulut {
+  position: absolute;
+  right: 0;
+  top: -2%;
+  z-index: 2;
+  width: 250px;
+}
+.about_section .bulut img {
+  width: 100%;
+}
+.product_section .pattern {
+  opacity: 0.4;
+  margin-top: 8rem;
+}
+.product_section .social_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 4%;
+  left: 10%;
+}
+.product_section .social_link li:first-child img {
+  width: 60px;
+}
+.product_section .social_link li img {
+  width: 100px;
+}
+.product_section .social_link li:last-child img {
+  width: 35px;
+}

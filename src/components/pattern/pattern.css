@@ -1,0 +1,7 @@
+.pattern {
+  width: 100%;
+  height: 159px;
+  background-position: center !important;
+  background: url("../../assets/imges/all.png");
+  background-repeat: no-repeat;
+}
